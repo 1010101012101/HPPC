@@ -1,0 +1,64 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=SearchAPI_7_3.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+MajorVersion=12
+MinorVersion=53
+LastActiveAction=Action
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+DisableRegenerate=0
+Description=
+LastCodeGenerationVer=
+ScriptLocale=en-US
+Encoding=
+[Actions]
+vuser_init=vuser_init.c
+SearchAPI=SearchAPI.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+SearchAPI=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+SearchAPI=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+SearchAPI=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+SearchAPI=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="SearchAPI_Search"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ManuallyExtraFiles]
+GetdatafromJSONresponse.js=
+pc_core.c=
+[Transactions]
+SearchAPI_Search=

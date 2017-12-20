@@ -1,0 +1,585 @@
+Virtual User Script started at: 12/6/2017 11:10:44 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\sentras\AppData\Local\Temp\TD_80\12.53.0.0_952\59c76dec\Test\332\332\332\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(20): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(20): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(21): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+vuser_init.c(21): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+vuser_init.c(21): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+vuser_init.c(22): web_submit_data("GetToken") started  	[MsgId: MMSG-26355]
+vuser_init.c(22): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/token"  	[MsgId: MMSG-26548]
+vuser_init.c(22): web_submit_data("GetToken") was successful, 91 body bytes, 228 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_BoostBurry" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=surface pro 3&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 49454 body bytes, 318 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Keyword_BoostBurry" ended with a "Pass" status (Duration: 0.3261 Wasted Time: 0.0141).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.3301 Wasted Time: 0.0141).
+Ending action SearchAPI.
+Ending iteration 1.
+Waiting 0.6120 seconds for iteration pacing.
+Starting iteration 2.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_MPN" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=SW6-00001&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 6445 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Keyword_MPN" ended with a "Pass" status (Duration: 0.1007 Wasted Time: 0.0098).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.1047 Wasted Time: 0.0098).
+Ending action SearchAPI.
+Ending iteration 2.
+Waiting 0.8220 seconds for iteration pacing.
+Starting iteration 3.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Webclass" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?f=w:B5"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 110174 body bytes, 323 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Webclass" ended with a "Pass" status (Duration: 0.5500 Wasted Time: 0.0291).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.5540 Wasted Time: 0.0291).
+Ending action SearchAPI.
+Ending iteration 3.
+Waiting 0.3950 seconds for iteration pacing.
+Starting iteration 4.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_Edc" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=3145919&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 2442 body bytes, 321 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Keyword_Edc" ended with a "Pass" status (Duration: 0.2567 Wasted Time: 0.0411).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.2607 Wasted Time: 0.0411).
+Ending action SearchAPI.
+Ending iteration 4.
+Waiting 0.6660 seconds for iteration pacing.
+Starting iteration 5.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Sort_Price" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=modem&f=sortby:priceasc&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 40321 body bytes, 318 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Sort_Price" ended with a "Pass" status (Duration: 0.2372 Wasted Time: 0.0492).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.2412 Wasted Time: 0.0492).
+Ending action SearchAPI.
+Ending iteration 5.
+Waiting 0.6880 seconds for iteration pacing.
+Starting iteration 6.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_MPN" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=SW6-00001&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 6445 body bytes, 321 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Keyword_MPN" ended with a "Pass" status (Duration: 0.1458 Wasted Time: 0.0404).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.1497 Wasted Time: 0.0404).
+Ending action SearchAPI.
+Ending iteration 6.
+Waiting 0.7810 seconds for iteration pacing.
+Starting iteration 7.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Webclass" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?f=w:A"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 244246 body bytes, 319 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Webclass" ended with a "Pass" status (Duration: 2.0530 Wasted Time: 0.0508).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 2.0570 Wasted Time: 0.0508).
+Ending action SearchAPI.
+Ending iteration 7.
+Warning: Iteration pacing cannot be reached (pace time = 1.00, actual time = 2.13).
+Starting iteration 8.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Sort_Price" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=modem&f=sortby:priceasc&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 40321 body bytes, 322 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Sort_Price" ended with a "Pass" status (Duration: 0.1783 Wasted Time: 0.0715).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.1823 Wasted Time: 0.0715).
+Ending action SearchAPI.
+Ending iteration 8.
+Waiting 0.7650 seconds for iteration pacing.
+Starting iteration 9.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_75Results" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=ipad&limit=75&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 100512 body bytes, 319 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_75Results" ended with a "Pass" status (Duration: 0.4228 Wasted Time: 0.0854).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.4270 Wasted Time: 0.0854).
+Ending action SearchAPI.
+Ending iteration 9.
+Waiting 0.5010 seconds for iteration pacing.
+Starting iteration 10.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_MPN" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=5QH-00001&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 1980 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Keyword_MPN" ended with a "Pass" status (Duration: 0.3038 Wasted Time: 0.0666).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.3076 Wasted Time: 0.0666).
+Ending action SearchAPI.
+Ending iteration 10.
+Waiting 0.6270 seconds for iteration pacing.
+Starting iteration 11.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Brand" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?f=b:MIC"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 44420 body bytes, 322 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Brand" ended with a "Pass" status (Duration: 0.6836 Wasted Time: 0.0668).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.6875 Wasted Time: 0.0668).
+Ending action SearchAPI.
+Ending iteration 11.
+Waiting 0.2450 seconds for iteration pacing.
+Starting iteration 12.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Sort_MostReviews" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=windows&f=sortby:mostrated&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 60031 body bytes, 322 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Sort_MostReviews" ended with a "Pass" status (Duration: 1.4317 Wasted Time: 0.0724).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 1.4356 Wasted Time: 0.0724).
+Ending action SearchAPI.
+Ending iteration 12.
+Warning: Iteration pacing cannot be reached (pace time = 1.00, actual time = 1.50).
+Starting iteration 13.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_BoostBurry" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=surface pro 3&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 49454 body bytes, 318 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Keyword_BoostBurry" ended with a "Pass" status (Duration: 0.2103 Wasted Time: 0.0754).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.2152 Wasted Time: 0.0754).
+Ending action SearchAPI.
+Ending iteration 13.
+Waiting 0.7270 seconds for iteration pacing.
+Starting iteration 14.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_KeywordOnly" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=speakers&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 42488 body bytes, 318 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_KeywordOnly" ended with a "Pass" status (Duration: 0.4458 Wasted Time: 0.1144).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.4498 Wasted Time: 0.1144).
+Ending action SearchAPI.
+Ending iteration 14.
+Waiting 0.4800 seconds for iteration pacing.
+Starting iteration 15.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_25Results" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=ipad&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 48435 body bytes, 322 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_25Results" ended with a "Pass" status (Duration: 0.2251 Wasted Time: 0.0639).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.2291 Wasted Time: 0.0639).
+Ending action SearchAPI.
+Ending iteration 15.
+Waiting 0.7030 seconds for iteration pacing.
+Starting iteration 16.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Brand" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?f=b:PND"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 37512 body bytes, 318 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Brand" ended with a "Pass" status (Duration: 0.5151 Wasted Time: 0.0916).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.5192 Wasted Time: 0.0916).
+Ending action SearchAPI.
+Ending iteration 16.
+Waiting 0.4080 seconds for iteration pacing.
+Starting iteration 17.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_MultipleContract" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?f=c:28277.28274"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 39629 body bytes, 322 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_MultipleContract" ended with a "Pass" status (Duration: 0.4080 Wasted Time: 0.0901).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.4120 Wasted Time: 0.0901).
+Ending action SearchAPI.
+Ending iteration 17.
+Waiting 0.5340 seconds for iteration pacing.
+Starting iteration 18.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_redirect" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=google apps&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 21174 body bytes, 322 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Keyword_redirect" ended with a "Pass" status (Duration: 0.1749 Wasted Time: 0.0694).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 0.1790 Wasted Time: 0.0694).
+Ending action SearchAPI.
+Ending iteration 18.
+Waiting 0.7620 seconds for iteration pacing.
+Starting iteration 19.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Sort_MostReviews" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=hp&f=sortby:mostrated&rr=1&uid=perftestuserid&sid=perftestsessionid"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 40708 body bytes, 318 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_Sort_MostReviews" ended with a "Pass" status (Duration: 1.1262 Wasted Time: 0.0942).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 1.1301 Wasted Time: 0.0942).
+Ending action SearchAPI.
+Ending iteration 19.
+Warning: Iteration pacing cannot be reached (pace time = 1.00, actual time = 1.20).
+Starting iteration 20.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_MultipleContract" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?f=c:28285.28274"  	[MsgId: MMSG-26548]
+SearchAPI.c(44): web_url("SearchProducts") was successful, 55491 body bytes, 318 header bytes  	[MsgId: MMSG-26386]
+SearchAPI.c(55): web_get_int_property started  	[MsgId: MMSG-26355]
+SearchAPI.c(55): web_get_int_property was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(58): Notify: Transaction "SearchAPI_Corp_MultipleContract" ended with a "Pass" status (Duration: 1.2981 Wasted Time: 0.1094).
+SearchAPI.c(59): Notify: Transaction "SearchAPI_Search" ended with a "Pass" status (Duration: 1.3030 Wasted Time: 0.1094).
+Ending action SearchAPI.
+Ending iteration 20.
+Warning: Iteration pacing cannot be reached (pace time = 1.00, actual time = 1.35).
+Starting iteration 21.
+Starting action SearchAPI.
+SearchAPI.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+SearchAPI.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(7): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+SearchAPI.c(7): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+SearchAPI.c(7): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+SearchAPI.c(8): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+SearchAPI.c(8): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(10): web_reg_save_param started  	[MsgId: MMSG-26355]
+SearchAPI.c(10): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(19): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(33): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(33): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+SearchAPI.c(40): Notify: Transaction "SearchAPI_Search" started.
+SearchAPI.c(41): Notify: Transaction "SearchAPI_Corp_Keyword_SearchWithin" started.
+SearchAPI.c(44): web_url("SearchProducts") started  	[MsgId: MMSG-26355]
+SearchAPI.c(44): Notify: Transaction "SearchAPI_Corp_Keyword_SearchWithin" ended with a "Stop" status (Duration: 0.0616 Wasted Time: 0.0003).
+SearchAPI.c(44): Notify: Transaction "SearchAPI_Search" ended with a "Stop" status (Duration: 0.0635 Wasted Time: 0.0003).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

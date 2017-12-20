@@ -1,0 +1,12 @@
+[
+    {
+        "transactionName": "SearchAPI_Corp_Keyword_BoostBurry",
+        "rawStartTime": 1512580246583,
+        "rawEndTime": 1512580246909
+    },
+    {
+        "transactionName": "SearchAPI_Search",
+        "rawStartTime": 1512580246581,
+        "rawEndTime": 1512580246911
+    }
+]

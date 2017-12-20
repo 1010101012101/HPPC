@@ -1,0 +1,12 @@
+[
+    {
+        "transactionName": "SearchAPI_Corp_Keyword_redirect",
+        "rawStartTime": 1512580265229,
+        "rawEndTime": 1512580265404
+    },
+    {
+        "transactionName": "SearchAPI_Search",
+        "rawStartTime": 1512580265227,
+        "rawEndTime": 1512580265406
+    }
+]

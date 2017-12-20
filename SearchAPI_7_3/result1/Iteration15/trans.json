@@ -1,0 +1,12 @@
+[
+    {
+        "transactionName": "SearchAPI_Corp_25Results",
+        "rawStartTime": 1512580262236,
+        "rawEndTime": 1512580262461
+    },
+    {
+        "transactionName": "SearchAPI_Search",
+        "rawStartTime": 1512580262234,
+        "rawEndTime": 1512580262463
+    }
+]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\sentras\AppData\Local\Temp\TD_80\12.53.0.0_952\59c76dec\Test\332\332\332
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\sentras\appdata\local\temp\td_80\12.53.0.0_952\59c76dec\test\332\332\332\\logfile.log
+c:\users\sentras\appdata\local\temp\td_80\12.53.0.0_952\59c76dec\test\332\332\332\\combined_332.c
+c:\users\sentras\appdata\local\temp\td_80\12.53.0.0_952\59c76dec\test\332\332\332\\pre_cci.c

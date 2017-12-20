@@ -1,0 +1,11 @@
+POST /external/v7.0/search/token HTTP/1.1
+Authorization: Basic MkZEN0JBNkI0Mjk4NDExNThGMTVCRjYxODczMEFEQTU6MUY3MjVGQjRGOTQ2NDc0OUE1NUFCNkMxN0RCNTZFNDg=
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: reststage.corp.cdw.com
+Content-Length: 29
+

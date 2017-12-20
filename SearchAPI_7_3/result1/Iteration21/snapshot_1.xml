@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1">
+  <HTTPTask id="22" url="https://reststage.corp.cdw.com/external/v7.0/search/products/cdwc/async?q=cab|dvi&amp;rr=1&amp;uid=perftestuserid&amp;sid=perftestsessionid" ip="10.19.20.47" port="443" client_ip="10.19.3.45" client_port="57543" connectionId="2464" origin="Primary" startDateTime="2017-12-06T11:11:08.777-06:00" startTime="27330">
+    <HTTPRequest method="GET">
+      <HTTPHeaders>
+        <HTTPAllHeaders>
+          <HTTPDataSet>
+            <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
+              <ActualData>R0VUIC9leHRlcm5hbC92Ny4wL3NlYXJjaC9wcm9kdWN0cy9jZHdjL2FzeW5jP3E9Y2FifGR2aSZycj0xJnVpZD1wZXJmdGVzdHVzZXJpZCZzaWQ9cGVyZnRlc3RzZXNzaW9uaWQgSFRUUC8xLjENCkF1dGhvcml6YXRpb246IGJlYXJlciA4OTllNjY1NDBmOWM0NmU2ODI2NzJjNzhlNTAxNGYwZA0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQpYLWR5bmFUcmFjZTogTkE9Q29ycF9LZXl3b3JkX1NlYXJjaFdpdGhpbjtQQz0/cT1jYWJ8ZHZpJnJyPTEmdWlkPXBlcmZ0ZXN0dXNlcmlkJnNpZD1wZXJmdGVzdHNlc3Npb25pZDtWVT0tMTtJRD0xNTEyNTgwMjY4NzY1DQpVc2VyLUFnZW50OiBNb3ppbGxhLzQuMCAoY29tcGF0aWJsZTsgTVNJRSA2LjA7IFdpbmRvd3MgTlQpDQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUNCkNvbm5lY3Rpb246IEtlZXAtQWxpdmUNCkhvc3Q6IHJlc3RzdGFnZS5jb3JwLmNkdy5jb20NCg0K</ActualData>
+            </HTTPData>
+          </HTTPDataSet>
+          <IsExternalData>false</IsExternalData>
+        </HTTPAllHeaders>
+      </HTTPHeaders>
+    </HTTPRequest>
+  </HTTPTask>
+</HTTPSnapshot>

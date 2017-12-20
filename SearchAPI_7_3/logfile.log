@@ -1,0 +1,4 @@
+c:\users\sentras\appdata\local\temp\td_80\12.53.0.0_952\59c76dec\test\332\332\332\\pre_cci.c: pc_core.c:12: warning: declaration of `pc_parseGroupName' does not match previous declaration at pc_core.c:5
+c:\users\sentras\appdata\local\temp\td_80\12.53.0.0_952\59c76dec\test\332\332\332\\pre_cci.c: pc_core.c:45: warning: declaration of `get_siteURL_bySiteKey' does not match previous declaration at pc_core.c:6
+c:\users\sentras\appdata\local\temp\td_80\12.53.0.0_952\59c76dec\test\332\332\332\\pre_cci.c: pc_core.c:52: warning: declaration of `pc_browserCleanup' does not match previous declaration at pc_core.c:4
+c:\users\sentras\appdata\local\temp\td_80\12.53.0.0_952\59c76dec\test\332\332\332\\pre_cci.c: vuser_init.c:19: warning: declaration of `Authorization' does not match previous declaration at vuser_init.c:12

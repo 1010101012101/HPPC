@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/json
+StepName=Submit Data: GetToken
+Total=1
+FileName1=t1.json
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1512580246486
+RawStepName=GetToken
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1512580245165
+URL1=file:

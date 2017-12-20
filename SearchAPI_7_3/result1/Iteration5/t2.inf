@@ -1,0 +1,13 @@
+[t2]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/json
+StepName=Url: SearchProducts
+Total=1
+FileName1=t2.json
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1512580250822
+RawStepName=SearchProducts
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1512580250604
+URL1=file:
